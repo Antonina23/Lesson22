@@ -3,9 +3,29 @@
 
 <form action="/visit" method="POST">
   <div class="form-group">
-    <label for="exampleInputEmail1">Your name</label>
-    <input name="username" type="email" class="form-control" placeholder="Enter your name">
+    <label>Your name</label>
+    <input name="username" type="text" class="form-control" placeholder="Enter your name">
   </div>
+
+
+<div class="form-group">
+    <label>Your phone number</label>
+    <input name="phone" type="text" class="form-control" placeholder="Enter your phone number">
+  </div>
+
+  <div class="form-group">
+    <label>Day and time of your visit</label>
+    <input name="time" type="text" class="form-control" placeholder="Please Enter day and time, when you would to visit us">
+  </div>
+
+<div>
+<select class="custom-select">
+  <option selected>Open this select menu for choose a barber</option>
+  <option value="1">Walter White</option>
+  <option value="2">Jessie Pinky</option>
+  <option value="3">Jhon Woo</option>
+</select>
+</div>
 
   <button type="submit" class="btn btn-primary">PUSH</button>
 </form>
