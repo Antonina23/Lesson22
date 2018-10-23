@@ -28,6 +28,17 @@ post '/visit' do
 	@title = "Thank you!"
 	@message = "Dear #{@username}, #{@phone}, we will be waiting for you at #{@time}, your master is #{@barber}, your choice color is: #{@color}"
 
+	hh = {:username => 'Enter your name please',
+		  :phone => 'Please enter your phone number',
+		  :time => 'You forgot to type date and time of visit'}
+
+		  hh.each do |key, value|
+		  	if params[key] == ''
+		  		@error = hh[key]
+		  		return erb :visit
+		  end
+		end
+	
 	f = File.open './public/users.txt', 'a'
 	f.write "\nUser: #{@username},\nPhone number: #{@phone},\nDay and time: #{@time},\nBarber: #{@barber},\nColor: #{@color}"
 	f.close
