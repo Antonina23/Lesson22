@@ -4,23 +4,23 @@
 <form action="/visit" method="POST">
   <div class="form-group">
     <label>Your name</label>
-    <input name="username" type="text" class="form-control" placeholder="Enter your name">
+    <input id="bbb" name="username" type="text" class="form-control" placeholder="Enter your name">
   </div>
 
 
 <div class="form-group">
     <label>Your phone number</label>
-    <input name="phone" type="text" class="form-control" placeholder="Enter your phone number">
+    <input name="phone" type="text" class="form-control ccc" placeholder="Enter your phone number">
   </div>
 
   <div class="form-group">
     <label>Day and time of your visit</label>
-    <input name="time" type="text" class="form-control" placeholder="Please Enter day and time, when you would to visit us">
+    <input id="aaa" name="time" type="text" class="form-control" placeholder="Please Enter day and time, when you would to visit us">
   </div>
 
 <div class="form-group">
   <label>Please choose your barber:</label>
-<select name="barber" class="form-control">
+<select name="barber" class="form-control ccc">
   <option>Walter White</option>
   <option>Jessie Pinky</option>
   <option>Jhon Woo</option>
@@ -29,3 +29,9 @@
 
   <button type="submit" class="btn btn-primary">PUSH</button>
 </form>
+
+<script type="text/javascript">
+  $ ('#aaa').css('background-color','yellow');
+  $ ('#bbb').css('background-color','red');
+  $ ('.ccc').css('background-color','blue');
+</script>
