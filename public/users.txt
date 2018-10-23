@@ -1,1 +1,11 @@
-User: jake, phone number: 234561, day and time: 11.11.2018User: kiki, phone number: 777777, day and time: 09.09.2019
+User: jake, phone number: 234561, day and time: 11.11.2018User: kiki, phone number: 777777, day and time: 09.09.2019User: Kim,
+phone number: 888888,
+day and time: 25.10.2018,
+your barber: Jessie PinkyUser: Mike,
+Phone number: 999999,
+Day and time: 20.11.2018,
+Barber: Jhon Woo
+User: Gus,
+Phone number: +1856694,
+Day and time: 22.11.2018,
+Barber: Walter White
