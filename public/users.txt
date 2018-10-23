@@ -9,3 +9,18 @@ User: Gus,
 Phone number: +1856694,
 Day and time: 22.11.2018,
 Barber: Walter White
+User: Alexa,
+Phone number: 685974,
+Day and time: 11.11.2018,
+Barber: Jessie Pinky,
+Color: 
+User: Alexa,
+Phone number: 685974,
+Day and time: 11.11.2018,
+Barber: Jessie Pinky,
+Color: 
+User: Mamba,
+Phone number: 56547898,
+Day and time: 04.11.2018,
+Barber: Walter White,
+Color: #51b749
